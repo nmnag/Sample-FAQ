@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">ChatAppKotlin</string>
+    <string name="chat_app">Chat app</string>
+    <string name="sign_up">Sign up</string>
+    <string name="login">Login</string>
+    <string name="user_name">User name</string>
+    <string name="password">password</string>
+    <string name="tos">By signing up, you agree to the Terms of Service and Privacy Policy, including Cookie Use. Others will be able to find you by searching for your email address or phone number when provided.</string>
+    <string name="value_error">Value is incorrect</string>
+    <string name="log_out">Log out</string>
+    <string name="send">send</string>
+    <string name="start_a_new_message">Start a new message</string>
+    <string name="you">You</string>
+    <string name="internet_connection_error">Please check your internet connection</string>
+    <string name="ongoing_loan_appication">Ongoing Loan Appication</string>
+    <string name="instant_cash">Instant Cash</string>
+    <string name="technical_issues">Technical Issues</string>
+    <string name="other_issues">Other Issues</string>
+    <string name="other_help">Other Help</string>
+    <string name="chat_with_us">Chat with Us</string>
+    <string name="type_your_query">Type Your Query</string>
+</resources>
