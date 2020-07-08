@@ -13,7 +13,7 @@ class HelpScreenActivity : AppCompatActivity() {
         setContentView(R.layout.activity_help_screen)
 
         button_oi.setOnClickListener(){
-            startActivity(Intent(this, showChatFragment("you")::class.java))
+            showChatFragment("You")
         }
     }
 

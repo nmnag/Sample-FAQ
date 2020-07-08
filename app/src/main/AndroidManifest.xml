@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".view.HelpScreenActivity"></activity>
-        <activity android:name=".view.ChatActivity" />
+        <activity android:name=".view.MessagesFragment" />
         <activity android:name=".view.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

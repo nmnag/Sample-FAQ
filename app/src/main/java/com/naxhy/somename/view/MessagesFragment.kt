@@ -21,6 +21,7 @@ import com.naxhy.somename.R
 import com.naxhy.somename.core.injector
 import com.naxhy.somename.domain.messages.model.Message
 import com.naxhy.somename.viewmodel.MessagesViewModel
+import com.naxhy.somename.viewmodel.MessagesViewModelFactory
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
@@ -41,8 +42,8 @@ class MessagesFragment : Fragment() {
         }
     }
 
-    private val factory = injector.messagesViewModelFactory()
-    @Inject lateinit var viewModel: MessagesViewModel
+    @Inject lateinit var factory: MessagesViewModelFactory
+     lateinit var viewModel: MessagesViewModel
 
 
     private lateinit var messagesList: RecyclerView
